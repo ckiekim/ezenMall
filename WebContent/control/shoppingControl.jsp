@@ -41,7 +41,7 @@
 		productList = pDao.getProducts(categoryNum);
 		request.setAttribute("mallTitle", mallTitle);
 		request.setAttribute("productList", productList);
-		pageContext.forward("../view/mall.jsp");
+		pageContext.forward("../view/mallModal.jsp");
 		break;
 	case "item":		// 개별 상품 상세 조회
 		pId = Integer.parseInt(request.getParameter("item"));
