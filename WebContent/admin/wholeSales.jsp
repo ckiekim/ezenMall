@@ -18,7 +18,12 @@
 
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
-			<div class="col-md-offset-1 col-md-11"><h3>전체 주문이력 조회</h3></div>
+			<div class="col-md-offset-1 col-md-8"><h3>전체 주문이력 조회</h3></div>
+			<div class="col-md-2" align="right">
+				<a href="../control/fileController"><button class="btn btn-primary" type="button">
+					<i class="glyphicon glyphicon-save"></i>&nbsp;&nbsp;.CSV</button></a>
+			</div>
+			<div class="col-md-1"></div>
 			<div class="col-md-12"><hr></div>
 			<div class="col-md-1"></div>
 			<div class="col-md-10">

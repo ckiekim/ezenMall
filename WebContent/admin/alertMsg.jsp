@@ -7,12 +7,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- ==================================================================== -->
-	<title>Ezen Shopping Mall Management</title>
+	<title>Ezen Shopping Mall</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<script type="text/javascript">
-		var message = '${message}';
+		var message = '[관리자] ${message}';
 		var returnUrl = '${url}';
 		alert(message);
 		document.location.href = returnUrl;

@@ -47,7 +47,7 @@
 		for (int i=0; i<totalPage; i++)
 			pageArray[i] = Integer.toString(i+1);
 		currentPage = Integer.parseInt(request.getParameter("page"));
-		session.setAttribute("currentPage", Integer.toString(currentPage));
+		request.setAttribute("currentPage", Integer.toString(currentPage));
 		dailySalesList = aDao.getAllDailySales(currentPage);
 		request.setAttribute("pageArray", pageArray);
 		request.setAttribute("dailySalesList", dailySalesList);
@@ -87,6 +87,11 @@
 		request.setAttribute("totalPrice", totalPrice + "원");
 		request.setAttribute("inventoryList", inventoryList);
 		pageContext.forward("../admin/inventory.jsp");
+		break;
+	case "download":			// .csv 파일 다운로드 완료후 이동 제어
+		request.setAttribute("message", "파일이 다운로드되었습니다.");
+		request.setAttribute("url", "../control/adminControl.jsp?action=wholeSales&page=1");
+		pageContext.forward("../admin/alertMsg.jsp");
 		break;
 	default:
 	}

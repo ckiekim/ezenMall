@@ -4,7 +4,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<a class="navbar-brand" href="../view/index.jsp">이젠쇼핑몰&nbsp;&nbsp;<i class="glyphicon glyphicon-home"></i></a>
+					<a class="navbar-brand" href="../admin/index.jsp">이젠쇼핑몰 관리자&nbsp;&nbsp;<i class="glyphicon glyphicon-wrench"></i></a>
 				</div>
 				<div class="col-md-4">
 					<p class="navbar-text navbar-right">

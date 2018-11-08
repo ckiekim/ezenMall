@@ -20,7 +20,7 @@
 	<div class="container">
 		<div class="row" style="margin-top: 70px">
 			<div class="col-md-offset-1 col-md-6"><h3>판매된 상품 조회</h3></div>
-			<div class="col-md-5">
+			<div class="col-md-4" align="center">
 				<form action="../control/adminControl.jsp?action=dailyByProduct" class="form-horizontal" method="post">
 					<div class="form-group">
 						<label class="control-label">날짜:&nbsp;&nbsp;</label>
@@ -29,6 +29,7 @@
 					</div>
 				</form>
 			</div>
+			<div class="col-md-1"></div>
 			<div class="col-md-12"><hr></div>
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
