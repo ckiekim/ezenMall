@@ -7,3 +7,5 @@ Eclipse "Dynamic Web Project" version
 2nd version: Modal view (mallModal.jsp)
 
 3rd version: .CSV download (FileController.java)
+
+4th version: use .gitignore (exclude *.class)
